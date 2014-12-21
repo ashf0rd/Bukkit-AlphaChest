@@ -1,8 +1,8 @@
-package net.sradonia.bukkit.alphachest.commands;
+package me.thefatdemon.alphachest.commands;
 
-import net.sradonia.bukkit.alphachest.Teller;
-import net.sradonia.bukkit.alphachest.Teller.Type;
-import net.sradonia.bukkit.alphachest.VirtualChestManager;
+import me.thefatdemon.alphachest.Teller;
+import me.thefatdemon.alphachest.Teller.Type;
+import me.thefatdemon.alphachest.VirtualChestManager;
 
 import org.bukkit.Bukkit;
 import org.bukkit.GameMode;
@@ -27,10 +27,7 @@ public class ChestCommands implements CommandExecutor {
 			return performChestCommand(sender, args);
 		else if (name.equalsIgnoreCase("clearchest"))
 			return performClearChestCommand(sender, args);
-		else if (name.equalsIgnoreCase("savechests"))
-			return performSaveChestsCommand(sender, args);
-		else
-			return false;
+		else return name.equalsIgnoreCase("savechests") && performSaveChestsCommand(sender, args);
 	}
 
 	private boolean performChestCommand(CommandSender sender, String[] args) {

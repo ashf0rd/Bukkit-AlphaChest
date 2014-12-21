@@ -1,7 +1,7 @@
-package net.sradonia.bukkit.alphachest.commands;
+package me.thefatdemon.alphachest.commands;
 
-import net.sradonia.bukkit.alphachest.Teller;
-import net.sradonia.bukkit.alphachest.Teller.Type;
+import me.thefatdemon.alphachest.Teller;
+import me.thefatdemon.alphachest.Teller.Type;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

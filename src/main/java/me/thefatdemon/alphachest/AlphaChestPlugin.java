@@ -1,11 +1,11 @@
-package net.sradonia.bukkit.alphachest;
+package me.thefatdemon.alphachest;
 
 import java.io.File;
 import java.util.List;
 import java.util.logging.Logger;
 
-import net.sradonia.bukkit.alphachest.commands.ChestCommands;
-import net.sradonia.bukkit.alphachest.commands.WorkbenchCommand;
+import me.thefatdemon.alphachest.commands.ChestCommands;
+import me.thefatdemon.alphachest.commands.WorkbenchCommand;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;

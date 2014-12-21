@@ -1,4 +1,4 @@
-package net.sradonia.bukkit.alphachest;
+package me.thefatdemon.alphachest;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
@@ -6,7 +6,7 @@ import org.bukkit.command.CommandSender;
 public class Teller {
 
 	public enum Type {
-		Info, Success, Warning, Error, Misc;
+		Info, Success, Warning, Error, Misc
 	}
 
 	public static void tell(CommandSender sender, Type type, String message) {

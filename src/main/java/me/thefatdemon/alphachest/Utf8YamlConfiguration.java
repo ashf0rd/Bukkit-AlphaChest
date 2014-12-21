@@ -1,4 +1,4 @@
-package net.sradonia.bukkit.alphachest;
+package me.thefatdemon.alphachest;
 
 import java.io.BufferedReader;
 import java.io.File;
