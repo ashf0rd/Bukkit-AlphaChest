@@ -137,10 +137,6 @@ public class VirtualChestManager {
 
 	/**
 	 * Gets a player's virtual chest.
-	 * 
-	 * @param playerUUID
-	 *            the UUID of the player
-	 * @return the player's virtual chest.
 	 */
 	public Inventory getChest(String input) {	
 		String targetChest = checkForUUID(input);
@@ -168,9 +164,6 @@ public class VirtualChestManager {
 	
 	/**
 	 * Clears a player's virtual chest.
-	 * 
-	 * @param playerUUID
-	 *            the UUID of the player
 	 */
 	public void removeChest(String input) {
 		// Put a null to the map so we remember to delete the file when saving!
