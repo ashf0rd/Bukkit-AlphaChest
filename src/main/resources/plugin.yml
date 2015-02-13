@@ -1,7 +1,7 @@
-name: ${project.name}
-main: net.sradonia.bukkit.alphachest.AlphaChestPlugin
-version: ${project.version}
-author: kroimon
+name: AlphaChest
+main: io.ashford.bukkit.alphachest.AlphaChestPlugin
+version: 1.18
+author: Ashf0rd
 description: >
              Plugin that allows you to have virtual private chests.
 
@@ -25,11 +25,6 @@ commands:
         permission: alphachest.workbench
 
 permissions:
-    alphachest.*:
-        description: Gives access to the virtual chest and workbench.
-        children:
-            alphachest.chest: true
-            alphachest.workbench: true
     alphachest.chest:
         description: Gives access to the virtual chest.
     alphachest.workbench:
